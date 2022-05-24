@@ -5,33 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+ </head>
+<body class="portfolio">
     <header>
         <nav>  
-        <a lang="en" href="">WebStudio</a>
+        <a class="logo" lang="en" href="">WebStudio</a>
             <ul>
-               <li><a href="" >Студия</a></li>
-               <li><a href="" >Портфолио</a></li>
-               <li><a href="" >Контакты</a></li>
+               <li class="header"><a  class="header-item href="" >Студия</a></li>
+               <li class="header"><a  class="header-item href="" >Портфолио</a></li>
+               <li class="header"><a  class="header-item href="" >Контакты</a></li>
            </ul>
            </nav>
            <ul>
-               <li><a  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-               <li><a  href="tel:+380961111111">+38 096 111 11 11</a></li>
+               <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+               <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
            </ul>
          </header>
 <main>
-    <section>
+    <section class="menu">
         <ul>
-           <li><button type="button">Все</button></li>
-           <li><button type="button">Веб-сайты</button></li>
-           <li><button type="button">Приложение</button></li>
-           <li><button type="button">Дизайн</button></li>
-           <li><button type="button">Маркетинг</button></li>
+           <li><button type="button" class="menu-btn">Все</button></li>
+           <li><button type="button" class="menu-btn">Веб-сайты</button></li>
+           <li><button type="button" class="menu-btn">Приложение</button></li>
+           <li><button type="button" class="menu-btn">Дизайн</button></li>
+           <li><button type="button" class="menu-btn">Маркетинг</button></li>
         </ul>
     </section>
-    <section>
+    <section class="pictures">
         <ul>
             <li><a></a>
                 <img src="./images/img1.2.jpg" alt="компьютер с фото" width="370"
@@ -90,14 +94,14 @@
         </ul>
     </section>
 </main>
-    <footer>
-        <a lang="en" href="">WebStudio</a>
+    <footer class="address">
+        <a class="logo" lang="en" href="">WebStudio</a>
         <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/72AKyJFaNbQAvg726" target="_blank" 
+            <ul class="list-style">
+                <li class="address-item"><a class="address-item-text" href="https://goo.gl/maps/72AKyJFaNbQAvg726" target="_blank" 
                     rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111" >+38 099 111 11 11</a></li>
+                <li class="address-mail"><a class="address-mail-text" href="mailto:info@example.com">info@example.com</a></li>
+                <li class="address-tel"><a class="address-tel-text" href="tel:+380991111111" >+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
