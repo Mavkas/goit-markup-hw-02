@@ -25,11 +25,11 @@ a,ul {text-decoration: none;}
 }
 .logo-color{color: var(--accent-color);}
 .header-item.current{color: var(--accent-color);}
-.header{
+.header-item{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-text-color)}
+    color:var(--title-text-color); }
 .header-item:hover,.header-item:focus{
         color: var(--accent-color);
 }
@@ -67,9 +67,10 @@ color:var(--secondary-color);
   .work h2 {
     font-weight: 700;
     line-height: 1.14;
-    color:var(--title-text-color)
+    text-transform: uppercase;
+    color:var(--title-text-color);
   } 
-  .work p{
+    .work p{
     line-height: 1.71;
     color:var(--primary-text-color);
   }
@@ -143,6 +144,7 @@ color:var(--title-text-color);
 }  
 .menu-btn:hover, .menu-btn:focus{
     background: var(--accent-color);
+    color: var(--secondary-color);
 }
 .pictures h2{
 font-weight: 700;
